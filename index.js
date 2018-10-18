@@ -2,7 +2,7 @@ const main = document.querySelector('main')
 
 function renderName(obj) {
   const h2 = document.createElement('h2')
-  h2.innerHTML = `<h2>${obj.name}</h2>`
+  h2.innerText = obj.name
   main.appendChild(h2)
 }
 
